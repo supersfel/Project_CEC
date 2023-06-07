@@ -1,0 +1,96 @@
+#flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#Background {                                   /*화면 전체 배경 css*/
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0.3px;
+    top: 0vh;
+    width: 1440px;
+    height: 1023px;
+
+    background: radial-gradient(52.74% 104.51% at 33.68% 46.92%, rgba(27, 149, 39, 0.65) 0%, #1B9527 100%);
+}
+
+#Calculator {                                  /*계산기 css*/
+    position: absolute;
+    width: 63px;
+    height: 21px;
+    left: 971px;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Schedule {                                     /*계획표 css*/
+    position: absolute;
+    width: 63px;
+    height: 21px;
+    left: 1055px;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Login {                                        /*로그인 css*/
+    position: absolute;
+    width: 63px;
+    height: 21px;
+    left: 1163px;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Join {                                         /*회원가입 css*/
+    position: absolute;
+    width: 80px;
+    height: 21px;
+    left: 1247px;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Main_Background {                              /*계산기화면 배경 css*/
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1012px;
+    height: 651px;
+    left: calc(50% - 1012px/2);
+    top: 186px;
+
+    background: linear-gradient(292.48deg, #81E055 0%, rgba(255, 255, 255, 0.54) 100%);
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 53px;
+}

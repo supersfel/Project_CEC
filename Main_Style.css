@@ -1,0 +1,276 @@
+#Background {                                   /*화면 전체 배경 css*/
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0.3px;
+    top: 0vh;
+    width: 98.9vw;
+    height: 1023px;
+
+    background: radial-gradient(52.74% 104.51% at 33.68% 46.92%, rgba(27, 149, 39, 0.65) 0%, #1B9527 100%);
+}
+
+#Calculator {                                  /*계산기 css*/
+    position: absolute;
+    width: 4vw;
+    height: 21px;
+    left: 65vw;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Schedule {                                     /*계획표 css*/
+    position: absolute;
+    width: 4vw;
+    height: 21px;
+    left: 70vw;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Login {                                        /*로그인 css*/
+    position: absolute;
+    width: 4vw;
+    height: 21px;
+    left: 77vw;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Join {                                         /*회원가입 css*/
+    position: absolute;
+    width: 6vw;
+    height: 21px;
+    left: 82vw;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Main_Background {                              /*계산기화면 배경 css*/
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 65vw;
+    height: 651px;
+    left: calc(50% - 65vw/2);
+    top: 186px;
+
+    background: linear-gradient(292.48deg, #81E055 0%, rgba(255, 255, 255, 0.54) 100%);
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 53px;
+}
+
+#Fuel_Background {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 60vw;
+    height: 131px;
+    left: calc(50% - 60vw/2);
+    top: 247px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+#Car_Fuel_Text {
+    position: absolute;
+    width: 18vw;
+    height: 57px;
+    left: 21.5vw;
+    top: 284px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+    line-height: 58px;
+
+    color: #000000;
+}
+
+#Fuel_Checkbox1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 2.3vw;
+    height: 2.3vw;
+    left: 48vw;
+    top: 297px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+#Diesel {
+    position: absolute;
+    width: 6vw;
+    height: 46px;
+    left: 50.7vw;
+    top: 290px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+#Fuel_Checkbox2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 2.3vw;
+    height: 2.3vw;
+    left: 62vw;
+    top: 297px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+#Gasoline {
+    position: absolute;
+    width: 8vw;
+    height: 46px;
+    left: 64.8vw;
+    top: 290px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+#Distance_Background {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 29vw;
+    height: 131px;
+    left: calc(50% - 60vw/2);
+    top: 446px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+#Move_Distance_Text {
+    position: absolute;
+    width: 10vw;
+    height: 37px;
+    left: 20.4vw;
+    top: 493px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+#Distance_Input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 15vw;
+    height: 78px;
+    left: 29.4vw;
+    top: 473px;
+
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+#Distance_Unit {
+    position: absolute;
+    width: 4vw;
+    height: 19px;
+    left: 44.3vw;
+    top: 533px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#Fuel_Efficiency_Background {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 29vw;
+    height: 131px;
+    right: calc(50% - 60vw/2);
+    top: 446px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+}
+
+#Fuel_Efficiency_Text {
+    position: absolute;
+    width: 4vw;
+    height: 37px;
+    left: 779px;
+    top: 493px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 39px;
+
+    color: #000000;
+}
