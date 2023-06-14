@@ -1,0 +1,19 @@
+/* 계산기 텍스트 hover 효과 */
+.calculator:hover {
+  text-decoration-line: underline;
+}
+
+/* 계획표 텍스트 hover 효과 */
+.schedule:hover {
+  text-decoration-line: underline;
+}
+
+/* 로그인 텍스트 hover 효과 */
+.login:hover {
+  text-decoration-line: underline;
+}
+
+/* 회원가입 텍스트 hover 효과 */
+.join:hover {
+  text-decoration-line: underline;
+}
