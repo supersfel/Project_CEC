@@ -6,12 +6,11 @@
     <title>이산화탄소 배출량 계산기</title>
     <link rel="stylesheet" href="Main_Style.css" />
     <link rel="stylesheet" href="Main_Style_effect.css" />
-    <script src="Main.js"></script>
   </head>
   <body>
     <div class="background">
       <div class="header">
-        <div class="calculator">계산기</div>
+        <div class="calculator"><a href="CEC.html">계산기</a></div>
         <div class="schedule">계획표</div>
         <div class="login">로그인</div>
         <div class="join">회원가입</div>
@@ -26,30 +25,50 @@
             </div>
             <div class="diesel-text">경유</div>
             <div class="fuel-checkbox2">
-              <!--<img src="image/check.png" class="check-image" />-->
+              <img src="image/check.png" class="check-image" />
             </div>
             <div class="gasoline-text">휘발유</div>
           </div>
 
           <div class="distance-background">
             <div class="move-distance-text">이동 거리</div>
-            <div class="distance-input"></div>
+            <div class="input">
+              <input
+                type="text"
+                id="distance"
+                class="distance-input"
+                onKeyup="this.value=this.value.replace(/[^0-9]/g,'').replace(/\B(?=(\d{3})+(?!\d))/g, ',');"
+                maxlength="7"
+              />
+            </div>
+
             <div class="distance-unit">km/월</div>
           </div>
 
           <div class="fuel-efficiency-background">
             <div class="fuel-efficiency-text">연비</div>
-            <div class="fuel-efficiency-input"></div>
+            <div class="input2">
+              <input
+                type="text"
+                id="fuel-efficiency"
+                class="fuel-efficiency-input"
+                onKeyup="this.value=this.value.replace(/[^0-9]/g,'').replace(/\B(?=(\d{3})+(?!\d))/g, ',');"
+                maxlength="7"
+              />
+            </div>
             <div class="fuel-efficiency-unit">km/l</div>
           </div>
 
+          <!--<a href="Result.html">-->
           <div class="result-button-background">
             <div class="result-text">결과</div>
           </div>
+          <!--</a>-->
         </div>
       </div>
 
       <footer></footer>
     </div>
   </body>
+  <script src="Main.js"></script>
 </html>

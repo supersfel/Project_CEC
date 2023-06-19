@@ -1,0 +1,107 @@
+@import "reset.css";
+
+/*화면 전체 배경 css*/
+.background {
+  box-sizing: border-box;
+
+  width: 94.9rem;
+  height: 64rem;
+
+  background: radial-gradient(
+    52.74% 104.51% at 33.68% 46.92%,
+    rgba(27, 149, 39, 0.65) 0%,
+    #1b9527 100%
+  );
+}
+
+/* 하이퍼링크 css */
+a[href] {
+  text-decoration-line: none;
+  color: inherit;
+}
+
+/* 머리글 css */
+.background .header {
+  display: flex;
+  height: 100px;
+  margin-left: 63%;
+  padding-top: 10px;
+}
+
+/* 계산기 css */
+.background .calculator {
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* 계획표 css */
+.background .schedule {
+  padding-left: 1rem;
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* 로그인 css */
+.background .login {
+  padding-left: 3rem;
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* 회원가입 css */
+.background .join {
+  padding-left: 1rem;
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* 본문 css */
+.background .container {
+  display: flex;
+}
+
+/* 결과 출력창 배경 */
+.background .result-background {
+  box-sizing: border-box;
+
+  display: flex;
+  width: 554px;
+  height: 741px;
+  left: calc(50% - 554px / 2 - 352px);
+  top: 186px;
+  flex-wrap: wrap;
+  margin-left: 93px;
+
+  background: linear-gradient(
+    292.48deg,
+    #81e055 0%,
+    rgba(255, 255, 255, 0.54) 100%
+  );
+  border: 2px solid #000000;
+  box-shadow: -10px 10px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 53px;
+}

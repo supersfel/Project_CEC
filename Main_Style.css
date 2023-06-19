@@ -13,6 +13,13 @@
     #1b9527 100%
   );
 }
+
+/* 하이퍼링크 css */
+a[href] {
+  text-decoration-line: none;
+  color: inherit;
+}
+
 /* 머리글 css */
 .background .header {
   display: flex;
@@ -138,7 +145,7 @@
   height: 2rem;
   margin-left: 124.28px;
 
-  background: #e0753f;
+  background-image: url(image/check1.png);
   border: 1px solid #000000;
   box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
   border-radius: 7px;
@@ -168,6 +175,9 @@
 .background .fuel-checkbox2 {
   box-sizing: border-box;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 2rem;
   height: 2rem;
   margin-left: 81.82px;
@@ -231,6 +241,8 @@
   background: #ffffff;
   border: 2px solid rgba(0, 0, 0, 0.5);
   border-radius: 20px;
+  font-size: x-large;
+  text-align: right;
 }
 
 /* 이동거리 단위 css */
@@ -289,6 +301,8 @@
   background: #ffffff;
   border: 2px solid rgba(0, 0, 0, 0.5);
   border-radius: 20px;
+  font-size: x-large;
+  text-align: right;
 }
 
 /* 연비 단위 css */
