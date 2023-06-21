@@ -84,7 +84,7 @@ a[href] {
   display: flex;
 }
 
-/* 결과 출력창 배경 */
+/* 결과 내용 출력창 배경 css */
 .background .result-background {
   box-sizing: border-box;
 
@@ -94,7 +94,8 @@ a[href] {
   left: calc(50% - 554px / 2 - 352px);
   top: 186px;
   flex-wrap: wrap;
-  margin-left: 93px;
+  margin-top: 5rem;
+  margin-left: 131.2px;
 
   background: linear-gradient(
     292.48deg,
@@ -104,4 +105,196 @@ a[href] {
   border: 2px solid #000000;
   box-shadow: -10px 10px 10px 2px rgba(0, 0, 0, 0.5);
   border-radius: 53px;
+}
+
+/* 결과 및 내용 배경 css */
+.background .result-contents-background {
+  box-sizing: border-box;
+
+  width: 482px;
+  height: 292.53px;
+  left: calc(50% - 482px / 2 - 352px);
+  top: 233.81px;
+  margin-left: 36px;
+  margin-top: 47.81px;
+
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 53px;
+}
+
+/* 결과 비교 그래프 배경 css */
+.background .result-graph-background {
+  box-sizing: border-box;
+
+  width: 482px;
+  height: 292.53px;
+  left: calc(50% - 482px / 2 - 352px);
+  top: 233.81px;
+  margin-left: 36px;
+
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 53px;
+}
+
+/* 실천방안 전체 배경 css */
+.background .act-way-all-background {
+  box-sizing: border-box;
+
+  display: flex;
+  width: 554px;
+  height: 741px;
+  left: calc(50% - 554px / 2 - 352px);
+  top: 186px;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  margin-left: 148px;
+
+  background: linear-gradient(
+    292.48deg,
+    #81e055 0%,
+    rgba(255, 255, 255, 0.54) 100%
+  );
+  border: 2px solid #000000;
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 53px;
+}
+
+/* 실천방안1 배경 css */
+.background .act-way-background1 {
+  box-sizing: border-box;
+
+  width: 226px;
+  height: 292.53px;
+  left: calc(50% - 226px / 2 + 222px);
+  top: 234px;
+  margin-left: 36px;
+  margin-top: 48px;
+
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 53px;
+}
+
+/* 실천방안1 텍스트 css */
+.background .act-way-text1 {
+  width: 223px;
+  height: 47px;
+  left: 830px;
+  top: 260px;
+  margin-top: 26px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 실천방안2 배경 css */
+.background .act-way-background2 {
+  box-sizing: border-box;
+
+  width: 226px;
+  height: 292.53px;
+  left: calc(50% - 226px / 2 + 222px);
+  top: 234px;
+  margin-left: 32px;
+  margin-top: 48px;
+
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 53px;
+}
+
+/* 실천방안2 텍스트 css */
+.background .act-way-text2 {
+  width: 223px;
+  height: 61px;
+  left: 1088px;
+  top: 260px;
+  margin-top: 26px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 실천방안3 배경 css */
+.background .act-way-background3 {
+  box-sizing: border-box;
+
+  width: 226px;
+  height: 292.53px;
+  left: calc(50% - 226px / 2 + 222px);
+  top: 234px;
+  margin-left: 36px;
+
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 53px;
+}
+
+/* 실천방안3 텍스트 css */
+.background .act-way-text3 {
+  width: 223px;
+  height: 46px;
+  left: 830px;
+  top: 610px;
+  margin-top: 26px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* 실천방안4 배경 css */
+.background .act-way-background4 {
+  box-sizing: border-box;
+
+  width: 226px;
+  height: 292.53px;
+  left: calc(50% - 226px / 2 + 222px);
+  top: 234px;
+  margin-left: 32px;
+
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 53px;
+}
+
+/* 실천방안4 텍스트 css */
+.background .act-way-text4 {
+  width: 223px;
+  height: 46px;
+  left: 1088px;
+  top: 610px;
+  margin-top: 26px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
 }
