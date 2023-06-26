@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>이산화탄소 배출량 계산기</title>
-  <link rel="stylesheet" href="Main_Style_effect.css" />
-  <link rel="stylesheet" href="Result_Style.css" />
-</html>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이산화탄소 배출량 계산기</title>
+    <link rel="stylesheet" href="Header_Style_effect.css" />
+    <link rel="stylesheet" href="Result_Style.css" />
+  </head>
+  <body>
   <div class="background">
     <div class="header">
       <div class="calculator"><a href="CEC.html">계산기</a></div>
@@ -16,23 +17,31 @@
     </div>
     
     <div class="container">
-        <div class="result-background">
+        <div class="result-background"> 
           <div class="result-contents-background"></div>
-          <div class="result-graph-background"></div>
+          <div class="result-graph-background">
+            <canvas id="result-graph" width="300" height="230"></canvas>
+          </div>
         </div>
         <div class="act-way-all-background">
           <div class="act-way-background1">
             <div class="act-way-text1">가까운 거리는 도보나 <br>자전거를 이용하면 좋아요!</div>
+            <img src="image/bicycle.png" class="act-way-image1">
           </div>
           <div class="act-way-background2">
             <div class="act-way-text2">대중교통 이용이 가능하다면 대중교통을 이용해주세요!</div>
+            <img src="image/bus.png" class="act-way-image2">
           </div>
           <div class="act-way-background3">
             <div class="act-way-text3">출발 전에 주행경로와 <br>시간을 미리 알아봐두세요!</div>
+            <img src="image/smartphone.png" class="act-way-image3">
           </div>
           <div class="act-way-background4">
             <div class="act-way-text4">타이어의 공기압은 <br>주기적으로 확인해주세요!</div>
+            <img src="image/tire-pressure.png" class="act-way-image4">
           </div>
         </div>
-  </div>
-</body>
+    </div>
+  </body>
+  <script src="Result_System.js"></script>
+</html>

@@ -140,6 +140,15 @@ a[href] {
   border-radius: 53px;
 }
 
+/* 결과 비교 그래프 css 
+.background .result-graph {
+  box-sizing: border-box;
+  position: relative;
+  width: 10px;
+  height: 270.8px;
+  background-color: skyblue;
+}*/
+
 /* 실천방안 전체 배경 css */
 .background .act-way-all-background {
   box-sizing: border-box;
@@ -167,6 +176,10 @@ a[href] {
 .background .act-way-background1 {
   box-sizing: border-box;
 
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
   width: 226px;
   height: 292.53px;
   left: calc(50% - 226px / 2 + 222px);
@@ -198,10 +211,20 @@ a[href] {
   color: #000000;
 }
 
+/* 실천방안1 이미지 css */
+.background .act-way-image1 {
+  width: 9rem;
+  height: 9rem;
+}
+
 /* 실천방안2 배경 css */
 .background .act-way-background2 {
   box-sizing: border-box;
 
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
   width: 226px;
   height: 292.53px;
   left: calc(50% - 226px / 2 + 222px);
@@ -233,10 +256,20 @@ a[href] {
   color: #000000;
 }
 
+/* 실천방안2 이미지 css */
+.background .act-way-image2 {
+  width: 9rem;
+  height: 9rem;
+}
+
 /* 실천방안3 배경 css */
 .background .act-way-background3 {
   box-sizing: border-box;
 
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
   width: 226px;
   height: 292.53px;
   left: calc(50% - 226px / 2 + 222px);
@@ -267,10 +300,20 @@ a[href] {
   color: #000000;
 }
 
+/* 실천방안3 이미지 css */
+.background .act-way-image3 {
+  width: 9rem;
+  height: 9rem;
+}
+
 /* 실천방안4 배경 css */
 .background .act-way-background4 {
   box-sizing: border-box;
 
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
   width: 226px;
   height: 292.53px;
   left: calc(50% - 226px / 2 + 222px);
@@ -297,4 +340,10 @@ a[href] {
   font-size: 17px;
   line-height: 22px;
   text-align: center;
+}
+
+/* 실천방안4 이미지 css */
+.background .act-way-image4 {
+  width: 9rem;
+  height: 9rem;
 }
