@@ -111,6 +111,10 @@ a[href] {
 .background .result-contents-background {
   box-sizing: border-box;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 482px;
   height: 292.53px;
   left: calc(50% - 482px / 2 - 352px);
@@ -122,6 +126,11 @@ a[href] {
   border: 2px solid #000000;
   box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.5);
   border-radius: 53px;
+}
+
+/* 결과 및 내용 css */
+.background #result-contents {
+  font-size: 2rem;
 }
 
 /* 결과 비교 그래프 배경 css */
@@ -139,15 +148,6 @@ a[href] {
   box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.5);
   border-radius: 53px;
 }
-
-/* 결과 비교 그래프 css 
-.background .result-graph {
-  box-sizing: border-box;
-  position: relative;
-  width: 10px;
-  height: 270.8px;
-  background-color: skyblue;
-}*/
 
 /* 실천방안 전체 배경 css */
 .background .act-way-all-background {

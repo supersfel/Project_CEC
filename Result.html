@@ -11,16 +11,18 @@
   <div class="background">
     <div class="header">
       <div class="calculator"><a href="CEC.html">계산기</a></div>
-      <div class="schedule">계획표</div>
+      <div class="schedule"><a href="Schedule.html">계획표</a></div>
       <div class="login">로그인</div>
       <div class="join">회원가입</div>
     </div>
     
     <div class="container">
         <div class="result-background"> 
-          <div class="result-contents-background"></div>
+          <div class="result-contents-background">
+            <p>당신의 이산화탄소 배출량은 <span id="result-contents"></span>kg 입니다.</p>
+          </div>
           <div class="result-graph-background">
-            <canvas id="result-graph" width="300" height="230"></canvas>
+            <canvas id="myChart"></canvas>
           </div>
         </div>
         <div class="act-way-all-background">
@@ -43,5 +45,7 @@
         </div>
     </div>
   </body>
-  <script src="Result_System.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <script type="module" src="Result_System.js"></script>
+
 </html>
