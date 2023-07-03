@@ -1,9 +1,30 @@
 let Co2Amount = JSON.parse(localStorage.getItem("Co2A"));
+console.log(Co2Amount);
 var context = document.getElementById("myChart").getContext("2d");
-const $resultContents = document.getElementById("result-contents");
-var text = Co2Amount;
+const $resultContents1 = document.getElementById("result-contents1");
+const $resultContents2 = document.getElementById("result-contents2");
+var text2;
+$resultContents1.innerHTML = Co2Amount;
 
-$resultContents.innerHTML = text;
+function comparison() {
+  let minus = Math.round((270.8 - Co2Amount) * 10) / 10;
+  if (minus > 0) {
+    text2 =
+      "당신은 다른 집보다 " +
+      minus +
+      "kg을 덜 배출하고 있습니다. " +
+      "앞으로도 이산화탄소 배출량을 줄이기 위해 노력해주세요.";
+  } else {
+    minus = minus * -1;
+    text2 =
+      "당신은 다른 집보다 " +
+      minus +
+      "kg을 더 배출하고 있습니다. " +
+      "앞으로는 이산화탄소 배출량을 줄이기 위해 노력해보세요.";
+  }
+}
+comparison();
+$resultContents2.innerHTML = text2;
 
 var myChart = new Chart(context, {
   type: "bar", // 차트의 형태
