@@ -7,7 +7,7 @@ var authRouter = require("./auth1");
 var authCheck = require("./authCheck");
 
 const app = express();
-const port = 80;
+const port = 3000;
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false }));
