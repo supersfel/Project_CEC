@@ -2,6 +2,7 @@ const express = require("express");
 const session = require("express-session");
 const bodyParser = require("body-parser");
 const FileStore = require("session-file-store")(session);
+const path = require("path");
 
 var authRouter = require("./auth1");
 var authCheck = require("./authCheck");
@@ -28,7 +29,8 @@ app.get("/", (req, res) => {
 //계산기 화면 이동
 app.get("/main", (req, res) => {
   console.log(__dirname);
-  res.sendFile(__dirname + "/public/htmlFile/Main.html");
+  const htmlPah = path.resolve(__dirname + "/public/htmlFile/Main.html");
+  res.sendFile(htmlPah);
 });
 
 //로그인 여부
