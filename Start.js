@@ -27,6 +27,7 @@ app.get("/", (req, res) => {
 
 //계산기 화면 이동
 app.get("/main", (req, res) => {
+  console.log(__dirname);
   res.sendFile(__dirname + "/public/htmlFile/Main.html");
 });
 
