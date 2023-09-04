@@ -7,7 +7,7 @@ var authRouter = require("./auth1");
 var authCheck = require("./authCheck");
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
 
 //계산기 화면 이동
 app.get("/main", (req, res) => {
-  res.sendFile(__dirname + "/public/htmlFile/Main");
+  res.sendFile(__dirname + "/public/htmlFile/Main.html");
 });
 
 //로그인 여부
