@@ -4,28 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>이산화탄소 배출량 계산기</title>
-    <link rel="stylesheet" href="Main_Style.css" />
-    <link rel="stylesheet" href="Header_Style_effect.css" />
+    <link rel="stylesheet" href="../cssFile/Header_Style_effect.css" />
+    <link rel="stylesheet" href="../cssFile/Main_Style.css" />
+    <link rel="stylesheet" href="../cssFile/Logined.css" />
   </head>
   <body>
     <div class="background">
-      <div class="header">
-        <div class="calculator"><a href="CEC.html">계산기</a></div>
-        <div class="schedule"><a href="Schedule.html">계획표</a></div>
-        <div class="login"><a href="Login.html">로그인</a></div>
-        <div class="join">회원가입</div>
-      </div>
+      <div class="header"></div>
 
       <div class="container">
         <div class="main-background">
           <div class="fuel-background">
             <div class="car-fuel-text">자동차 연료</div>
             <div class="fuel-checkbox1">
-              <img src="image/check.png" class="check-image" />
+              <img src="/image/check.png" class="check-image" />
             </div>
             <div class="diesel-text">경유</div>
             <div class="fuel-checkbox2">
-              <img src="image/check.png" class="check-image" />
+              <img src="/image/check.png" class="check-image" />
             </div>
             <div class="gasoline-text">휘발유</div>
           </div>
@@ -53,7 +49,7 @@
                 id="fuel-efficiency"
                 class="fuel-efficiency-input"
                 onKeyup="this.value=this.value.replace(/[^0-9]/g,'').replace(/\B(?=(\d{3})+(?!\d))/g, ',');"
-                maxlength="7"
+                maxlength="3"
               />
             </div>
             <div class="fuel-efficiency-unit">km/l</div>
@@ -66,5 +62,6 @@
       </div>
     </div>
   </body>
-  <script type="module" src="Main.js"></script>
+  <script type="module" src="../jsFile/Main_System.js"></script>
+  <script type="module" src="../jsFile/Change_Header.js"></script>
 </html>

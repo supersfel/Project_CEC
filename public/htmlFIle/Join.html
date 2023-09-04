@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이산화탄소 배출량 계산기</title>
+    <link rel="stylesheet" href="../cssFile/Header_Style_effect.css" />
+    <link rel="stylesheet" href="../cssFile/Join_Style.css" />
+    <link rel="stylesheet" href="../cssFile/Logined.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="header">
+        <div class="calculator"><a href="/main">계산기</a></div>
+        <div class="schedule"><a href="/schedule">계획표</a></div>
+        <div class="login"><a href="/auth/login">로그인</a></div>
+        <div class="join"><a href="/auth/join">회원가입</a></div>
+      </div>
+
+      <div class="container">
+        <div class="login-background">
+          <form action="/auth/register_process" method="post">
+            <div class="input1">
+              <p>
+                <input
+                  type="text"
+                  class="id-input"
+                  name="username"
+                  placeholder="아이디(닉네임)"
+                />
+              </p>
+            </div>
+            <div class="input2">
+              <p>
+                <input
+                  type="password"
+                  class="pw-input"
+                  name="pwd"
+                  placeholder="비밀번호"
+                />
+              </p>
+            </div>
+            <div class="input3">
+              <p>
+                <input
+                  type="password"
+                  class="pw-input-check"
+                  name="pwd2"
+                  placeholder="비밀번호 재확인"
+                />
+              </p>
+            </div>
+            <p><input class="login-button" type="submit" value="가입" /></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="../jsFile/Join_System.js"></script>
+</html>

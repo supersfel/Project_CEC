@@ -30,6 +30,7 @@ a[href] {
 
 /* 계산기 css */
 .background .calculator {
+  padding-left: 1rem;
   height: 21px;
   font-family: "Inter";
   font-style: normal;

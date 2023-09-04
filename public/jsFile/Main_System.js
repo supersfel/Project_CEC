@@ -1,8 +1,14 @@
+import { changeHeader } from "./Change_Header.js";
+changeHeader();
+
 const $fuelCheckbox1 = document.querySelector(".fuel-checkbox1");
 const $fuelCheckbox2 = document.querySelector(".fuel-checkbox2");
 const $resultButtonBackground = document.querySelector(
   ".result-button-background"
 );
+const $headerChange1 = document.querySelector(".login");
+const $headerChange2 = document.querySelector(".join");
+
 let fuel = 1; //연료 종류
 let distance = 0; //이동 거리
 let fuelEfficiency = 0; //연비
@@ -10,33 +16,35 @@ let Co2Amount = 0;
 
 //경유 체크박스를 클릭했을 때
 $fuelCheckbox1.addEventListener("click", function (e) {
-  $fuelCheckbox1.style.backgroundImage = "url(image/check1.png)";
-  $fuelCheckbox2.style.backgroundImage = "url(image/check.png";
+  $fuelCheckbox1.style.backgroundImage = "url(/image/check1.png)";
+  $fuelCheckbox2.style.backgroundImage = "url(/image/check.png)";
   fuel = 1;
 });
 
 //휘발유 체크박스를 클릭했을 떄
 $fuelCheckbox2.addEventListener("click", function (e) {
-  $fuelCheckbox1.style.backgroundImage = "url(image/check.png";
-  $fuelCheckbox2.style.backgroundImage = "url(image/check1.png)";
+  $fuelCheckbox1.style.backgroundImage = "url(/image/check.png)";
+  $fuelCheckbox2.style.backgroundImage = "url(/image/check1.png)";
   fuel = 2;
 });
 
 //결과 버튼을 클릭했을 때
 $resultButtonBackground.addEventListener("click", function (e) {
-  let link = "Result.html"; //결과창 주소
+  let link = "result"; //결과창 주소
   valueBring();
   if (distance > 0 && fuelEfficiency > 0) {
     location.href = link;
     Co2EmissionsCalculate(fuel, distance, fuelEfficiency);
     console.log(Co2Amount);
+  } else {
+    alert("이동거리와 연비를 입력해주세요.");
   }
 });
 
 //이동거리와 연비 입력값 불러오기
 function valueBring() {
   distance = document.getElementById("distance").value;
-  distance = distance.replace(/,/g, "");
+  distance = distance.replace(/,/, "");
   fuelEfficiency = document.getElementById("fuel-efficiency").value;
 }
 

@@ -1,3 +1,6 @@
+import { changeHeader } from "./Change_Header.js";
+changeHeader();
+
 let Co2Amount = JSON.parse(localStorage.getItem("Co2A"));
 console.log(Co2Amount);
 var context = document.getElementById("myChart").getContext("2d");

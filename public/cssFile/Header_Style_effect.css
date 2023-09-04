@@ -17,3 +17,8 @@
 .join:hover {
   text-decoration-line: underline;
 }
+
+/* 로그아웃 텍스트 hover 효과 */
+.logout:hover {
+  text-decoration-line: underline;
+}
