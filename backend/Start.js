@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
 
 //계산기 화면 이동
 app.get("/main", (req, res) => {
-  res.sendFile(__dirname + "/public/htmlFile/Main.html");
+  res.sendFile(__dirname + "/public/htmlFile/Main");
 });
 
 //로그인 여부
