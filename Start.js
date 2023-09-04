@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
 //계산기 화면 이동
 app.get("/main", (req, res) => {
   console.log(__dirname);
-  const htmlPah = path.resolve(__dirname + "/public/test.html");
+  const htmlPah = path.resolve(__dirname + "/public/htmlFile/test.html");
   res.sendFile(htmlPah);
 });
 
