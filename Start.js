@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const FileStore = require("session-file-store")(session);
 const path = require("path");
 
-var authRouter = require("./auth1");
+var authRouter = require("./auth");
 var authCheck = require("./authCheck");
 
 const app = express();
