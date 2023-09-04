@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
 //계산기 화면 이동
 app.get("/main", (req, res) => {
   console.log(__dirname);
-  res.sendFile("/opt/render/project/public/htmlFile/Main.html");
+  res.sendFile("/Project_CEC/public/htmlFile/Main.html");
 });
 
 //로그인 여부
